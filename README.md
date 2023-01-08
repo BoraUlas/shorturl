@@ -1,3 +1,39 @@
+# Link Kısaltıcı Servis
+Bu uygulama, 
+
+•	Mehmet Akif ÇAY
+
+•	Hamza GÜNAY
+
+•	Bora Ulaş BAYAR
+
+•	Yüksel Şeyda KABA
+
+tarafından Yazılım Geliştirme Laboratuvarı-I dersi kapsamında geliştirilmiş olan URL Kısaltıcı Web Sitesidir.
+
+Bu web sitesi, kullanıcıların uzun URL'leri kısaltarak paylaşmalarına olanak sağlar. Kullanıcılar, uygulamaya bir URL girerek bu URL'nin kısaltılmış bir versiyonunu oluşturabilirler. Kullanıcılar daha sonra bu URL’leri listeleyebilir ve süreleri doluncaya kadar kullanmaya devam edebilirler.
+### Nasıl Kullanılır?
+1.	Siteye ilk girişinizde karşınıza çıkan form ekranına e-posta adresinizi ve şifrenizi girerek sisteme kayıt olun. Daha önce kaydolduysanız sisteme giriş yapın.
+2.	Kısaltmak istediğiniz URL’yi ‘Linki kısalt’ bölümünün altındaki ‘URL’ kutucuğuna girin.
+3.	Kısaltılmış URL’nin kaç gün geçerli kalmasını istediğinizi ‘Geçerlilik süresi’ kutucuğundan seçin.
+4.	Kısaltılmış URL’nin anlaşılabilir olması için URL’ye maksimum10 karakterlik bir isim verebilirsiniz. Bunun için ‘İsim’ kutucuğuna vermek istediğiniz ismi girin. Bu isim URL’de kullanılacaktır. Bu adımı atlarsanız URL sistem tarafından rastgele isimlendirilir.
+5.	Kısalt butonuna bastığınızda uygulama, girilen URL'yi kısaltacaktır.
+6.	Kısaltılmış URL’leriniz süreleri geçinceye kadar anasayfada listelenirler.
+### Kullanılan Teknolojiler
+
+•	Go
+
+•	JavaScript
+
+•	HTML/CSS
+
+•	MongoDB
+
+•	Render Web Service
+
+•	Netlify 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
