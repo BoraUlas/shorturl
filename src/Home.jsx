@@ -35,9 +35,9 @@ function Home() {
         <div className="how-work">
           <h3>Nasıl Çalışır?</h3>
           <p>
-          Kısaltmak istedğiniz link girilir ve ona karşılık gelen kısa bir ad oluşturulur.
-            Bu ad veri tabanında tutulur ve sizin belirledğiniz süre boyunca orda kalır süre bitince silinir.
-            Kullanıcı adı ve şifre ile kayıt olduktan sonra istedğiniz kadar link kısaltabilirisiniz.
+          Kısaltmak istediğiniz link girilir ve ona karşılık gelen kısa bir ad oluşturulur.
+            Bu ad veri tabanında tutulur ve sizin belirlediğiniz süre boyunca orada kalır. Süre bitince silinir.
+            Kullanıcı adı ve şifre ile kayıt olduktan sonra istediğiniz kadar link kısaltabilirisiniz.
           </p>
         </div>
       </div>

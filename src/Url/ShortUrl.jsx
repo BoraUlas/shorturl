@@ -135,15 +135,15 @@ function ShortUrl() {
       </div>
       <div className="content">
         <div className="form-div">
-        <a className="goto-statics" href="">İstasitklere git</a>
+        <a className="goto-statics" href="">İstatistiklere Git</a>
           <form className="short-url-form">
             {error && <p style={{ color: "red" }}>{message}</p>}
-            <h3>Linki kısalt</h3>
+            <h3>Linki Kısalt</h3>
             <input
               type="url"
               onChange={(e) => setUrl(e.target.value)}
               value={url}
-              placeholder="Url(zorunlu)"
+              placeholder="URL (Zorunlu)"
             />
             <div
               className="inputs-and-btn"
@@ -154,14 +154,14 @@ function ShortUrl() {
                 onChange={(e) => setDay(e.target.value)}
                 value={day}
                 min="0"
-                placeholder="Geçerilik Süresi(Gün)"
+                placeholder="Geçerilik Süresi (Gün)"
               />
               <input
                 onChange={(e) => ShortenedUrlInput(e.target.value)}
                 value={shortenedUrl}
                 type="text"
                 maxLength="10"
-                placeholder="isim(opsiyonel)"
+                placeholder="İsim (Opsiyonel)"
               />
               <button
                 className="form-btn"
@@ -218,10 +218,9 @@ function ShortUrl() {
         <div className="how-work">
           <h3>Nasıl Çalışır?</h3>
           <p>
-            Kısaltmak istedğiniz link girilir ve ona karşılık gelen kısa bir ad
-            oluşturulur. Bu ad veri tabanında tutulur ve sizin belirledğiniz
-            süre boyunca orda kalır süre bitince silinir. Kullanıcı adı ve şifre
-            ile kayıt olduktan sonra istedğiniz kadar link kısaltabilirisiniz.
+          Kısaltmak istediğiniz link girilir ve ona karşılık gelen kısa bir ad oluşturulur.
+            Bu ad veri tabanında tutulur ve sizin belirlediğiniz süre boyunca orada kalır. Süre bitince silinir.
+            Kullanıcı adı ve şifre ile kayıt olduktan sonra istediğiniz kadar link kısaltabilirisiniz.
           </p>
         </div>
       </div>
