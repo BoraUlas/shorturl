@@ -135,7 +135,7 @@ function ShortUrl() {
       </div>
       <div className="content">
         <div className="form-div">
-        <a className="goto-statics" href="">İstasitklere git</a>
+        <a className="goto-statics" href="https://linkkisaltistastikleri.netlify.app/">İstasitklere git</a>
           <form className="short-url-form">
             {error && <p style={{ color: "red" }}>{message}</p>}
             <h3>Linki kısalt</h3>
